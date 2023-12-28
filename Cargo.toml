@@ -1,0 +1,10 @@
+[package]
+name = "rawr_lang"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nom = "7.1.3"
+nom_locate = "4.2.0"
+arcstr = "1.1.5"
+uuid = { version = "1.6.1", features = ["v4"] }
